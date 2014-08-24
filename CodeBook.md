@@ -57,7 +57,7 @@ The following files are available for the train and test data. Their description
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
-#Provided method of cleaning the raw data
+#Required method of cleaning the raw data
 
 1. Merge the training and the test sets to create one data set.
 
@@ -70,7 +70,7 @@ The following files are available for the train and test data. Their description
 5. Create a second independent tidy data set with the average of each variable for each activity and each subject.
 
 
-# run_analysis.R implementation of the method
+# run_analysis.R implementation of the given requirements
 
 * Stores all test and training dataset into memory using data.table
 

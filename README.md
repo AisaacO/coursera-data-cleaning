@@ -3,22 +3,27 @@
 
 Describes an R method of obtaining and cleaning raw data for further analysis
 
-#run_analysis.R in the file does the following.
+#Functions performed by run_analysis.R
 
 * Merges the training and the test sets to create one data set.
+
 * Extracts only the measurements on the mean and standard deviation for each measurement.
+
 * Uses descriptive activity names to name the activities in the data set
+
 * Appropriately labels the data set with descriptive activity names.
+
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 #Script's Dependences
+
 1. data.table Library
 
 2. reshape2 Library
 
 3. Large enough RAM memory to handle data processing
 
-##Guidelines for a successful run of the script
+#Guidelines for a successful run of the script
 
 1. Download and Unzip the source zip file to create a UCI HAR dataset into your local drive but if the data does not exist, just run run_analysis.R and it will obtain the data from the source onto your current working directory
 

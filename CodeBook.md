@@ -63,7 +63,7 @@ The following files are available for the train and test data. Their description
 
 2. Extract only the measurements on the mean and standard deviation for each measurement.
 
-3. Use descriptive activity names to name the activities in the data set
+3. Use descriptive activity names to name the activities in the data set.
 
 4. Appropriately label the data set with descriptive activity names.
 

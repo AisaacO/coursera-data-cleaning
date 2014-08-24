@@ -23,25 +23,30 @@ Describes the variables, contents of the dataset and work carried out to transfo
 ##Provided method of cleaning the raw data
 
 1. Merge the training and the test sets to create one data set.
+
 2. Extract only the measurements on the mean and standard deviation for each measurement.
+
 3. Use descriptive activity names to name the activities in the data set
+
 4. Appropriately label the data set with descriptive activity names.
+
 5. Create a second independent tidy data set with the average of each variable for each activity and each subject.
+
 
 ## run_analysis.R processing method
 
-* Store all test and training dataset into memory using data.table
+* Stores all test and training dataset into memory using data.table
 
-* Store activity labels and data features
+* Stores activity labels and data features
 
-* Extract only the mean and standard deviation measurements for each of the data feature
+* Extracts only the mean and standard deviation measurements for each of the data feature
  
-* Extract the mean and standard deviation for test and train X data measurement
+* Extracts the mean and standard deviation for test and train X data measurement
  
-* Label the data set with descriptive activity names
+* Labels the data set with descriptive activity names
  
-* Merge the test and training dataset
+* Merges the test and training dataset
  
-* Reshape the merged dataset using reshape2 library
+* Reshapes the merged dataset using reshape2 library
 
-* Write the independent data to a text file
+* Writes the independent data to a text file

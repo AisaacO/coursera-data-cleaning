@@ -3,21 +3,22 @@ Describes the variables, contents of the dataset and work carried out to transfo
 ##Source of Data
 
 1 Data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 2 Dataset description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Content of Dataset
 
-*README.txt
+* README.txt
 
-*test/X_test.txt and train/X_train.txt : test and training set for X respectively.
+* test/X_test.txt and train/X_train.txt : test and training set for X respectively.
 
-*test/y_test.txt and train/y_train.txt : Test and Training labels for y respectively.
+* test/y_test.txt and train/y_train.txt : Test and Training labels for y respectively.
 
-*features.txt : List all features of the dataset.
+* features.txt : List all features of the dataset.
 
-*features_info.txt : Provides information about the feature variables.
+* features_info.txt : Provides information about the feature variables.
 
-*activity_labels.txt : Links the labels with their activity name.
+* activity_labels.txt : Links the labels with their activity name.
 
 ##Provided method of cleaning the raw data
 

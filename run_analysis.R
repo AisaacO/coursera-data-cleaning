@@ -24,7 +24,7 @@ download.data = function() {
 }
 
 
-## store all test and training dataset into R memory
+## store all test, training and subject dataset into memory
 Xtest    <- read.table("./UCI HAR Dataset/test/X_test.txt")
 ytest    <- read.table("./UCI HAR Dataset/test/y_test.txt")
 subtest  <- read.table("./UCI HAR Dataset/test/subject_test.txt")
@@ -32,7 +32,7 @@ Xtrain   <- read.table("./UCI HAR Dataset/train/X_train.txt")
 ytrain   <- read.table("./UCI HAR Dataset/train/y_train.txt")
 subtrain <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
-## store activity labels, data features and excerpt only the mean and standard
+## store activity labels, data features and extract only the mean and standard
 ## deviation measurements for each of the data feature
 labels   <- read.table("./UCI HAR Dataset/activity_labels.txt")[,2]
 features <- read.table("./UCI HAR Dataset/features.txt")[,2]
@@ -56,7 +56,7 @@ names(subtrain)= "SubjectID"
 testData  <- cbind(as.data.table(subtest), Xtest, ytest)
 trainData <- cbind(as.data.table(subtrain), Xtrain, ytrain)
 
-## combine the test and train dataset rows into using rbind and use melt 
+## combine the test and train dataset rows using rbind and use melt 
 ## function to change it to long format data
 require("reshape2")
 data = rbind(testData, trainData)

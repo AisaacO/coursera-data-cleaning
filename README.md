@@ -33,8 +33,8 @@ Describes an R method of obtaining and cleaning raw data for further analysis
 
 4. The R script will read the dataset and produce a new file called tidy_data.txt which is the clean data required.
 
-5. The tidy_data.txt produced is about 0.261Mb in size
+5. The tidy_data.txt produced is about 0.261Mb in size.
 
-6. The script runs for ~16 seconds depending on user systems RAM and specification
+6. The script runs for ~16 seconds depending on user systems RAM and specification.
 
 

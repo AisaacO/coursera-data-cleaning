@@ -1,4 +1,4 @@
-#coursera-data-cleaning
+#Raw data acquisition and preparation for statistician analysis
 
 
 Describes an R method of obtaining and cleaning raw data for further analysis

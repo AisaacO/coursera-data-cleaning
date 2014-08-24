@@ -1,12 +1,12 @@
 Describes the variables, contents of the dataset and work carried out to transform the raw data to tidy data
 
-##Source of Data
+#Source of Data
 
 1. Data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2. Dataset description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## About the Data and collection Method
+# About the Data and collection Method
 
 Human Activity Recognition Using Smartphones Dataset
 

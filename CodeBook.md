@@ -2,9 +2,9 @@ Describes the variables, contents of the dataset and work carried out to transfo
 
 ##Source of Data
 
-1 Data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+1. Data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-2 Dataset description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+2. Dataset description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Content of Dataset
 
@@ -22,19 +22,26 @@ Describes the variables, contents of the dataset and work carried out to transfo
 
 ##Provided method of cleaning the raw data
 
-1 Merge the training and the test sets to create one data set.
-2 Extract only the measurements on the mean and standard deviation for each measurement.
-3 Use descriptive activity names to name the activities in the data set
-4 Appropriately label the data set with descriptive activity names.
-5 Create a second independent tidy data set with the average of each variable for each activity and each subject.
+1. Merge the training and the test sets to create one data set.
+2. Extract only the measurements on the mean and standard deviation for each measurement.
+3. Use descriptive activity names to name the activities in the data set
+4. Appropriately label the data set with descriptive activity names.
+5. Create a second independent tidy data set with the average of each variable for each activity and each subject.
 
 ## run_analysis.R processing method
 
-*Store all test and training dataset into memory using data.table
-*Store activity labels and data features
-*Extract only the mean and standard deviation measurements for each of the data feature
-*Extract the mean and standard deviation for test and train X data measurement
-*Label the data set with descriptive activity names
-*Merge the test and training dataset
-*Reshape the merged dataset using reshape2 library
-*Write the independent data to a text file
+* Store all test and training dataset into memory using data.table
+
+* Store activity labels and data features
+
+* Extract only the mean and standard deviation measurements for each of the data feature
+ 
+* Extract the mean and standard deviation for test and train X data measurement
+ 
+* Label the data set with descriptive activity names
+ 
+* Merge the test and training dataset
+ 
+* Reshape the merged dataset using reshape2 library
+
+* Write the independent data to a text file
